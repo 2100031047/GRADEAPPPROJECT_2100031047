@@ -1,0 +1,115 @@
+/* Header styles */
+.header {
+  background-color: #0f0f0f; /* purple */
+  color: #e0dcdc;
+  padding: 20px;
+  text-align: center;
+  animation: fadeInDown 0.5s ease;
+  font-family: 'Arial', sans-serif; /* Change font family */
+}
+
+/* MainBlock styles */
+.main-block {
+  margin-top: 20px;
+  animation: slideInLeft 0.5s ease;
+}
+
+.main-block table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff; /* white */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-block th, .main-block td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  font-family: 'Arial', sans-serif; /* Change font family */
+}
+
+.main-block th {
+  background-color: #f2f2f2;
+}
+
+/* Button styles */
+.button {
+  background-color: #00B894; /* green */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Arial', sans-serif; /* Change font family */
+}
+
+.button:hover {
+  background-color: #00A884; /* darker green */
+}
+
+/* Footer styles */
+.footer {
+  background-color: #2C3A47; /* dark blue */
+  color: #fff; /* white text color */
+  padding: 20px;
+  text-align: center;
+  animation: fadeInUp 0.5s ease;
+  font-family: 'Arial', sans-serif; /* Change font family */
+}
+
+.footer p {
+  margin: 5px 0; /* Add some margin between paragraphs */
+}
+
+.footer b {
+  color: #FBC531; /* yellow */
+}
+
+
+/* Statistics block styles */
+.statistics-block {
+  background-color: #082942; /* blue */
+  color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: slideInRight 0.5s ease;
+  font-family: 'Arial', sans-serif; /* Change font family */
+}
+.main-block {
+  margin-top: 20px;
+}
+
+.main-block table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #111010; /* white */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-block th, .main-block td {
+  border: 1px solid #242222;
+  padding: 12px;
+  text-align: left;
+}
+
+.main-block th {
+  background-color: #999191; /* light gray */
+}
+
+.main-block td {
+  background-color: #f9f9f9; /* lightest gray */
+}
+
+.main-block tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* alternate row color */
+}
+
+.main-block tbody tr:hover {
+  background-color: #e2e2e2; /* hover color */
+}
